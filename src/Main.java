@@ -2,7 +2,7 @@ public class Main {
     public static void main(String[] args) {
         // Task 1
         byte age = 17;
-        if (age >= 17) {
+        if (age >= 18) {
             System.out.println("Если возраст человека равен " + age + ", то он совершеннолетний");
         } else {
             System.out.println("Если возраст человека равен " + age + ", то он не достиг совершеннолетия, нужно немного подождать");
@@ -10,11 +10,11 @@ public class Main {
 
         // Task 2
         System.out.println("");
-        short temperature = 25;
+        short temperature = -6;
         if (temperature <= 5) {
-            System.out.println("На улице " + temperature + " градусов, нужно надеть шапку");
+            System.out.println("На улице " + temperature + " градусов цельсия, нужно надеть шапку");
         } else {
-            System.out.println("На улице " + temperature + ", можно идти без шапки");
+            System.out.println("На улице " + temperature + " градусов цельсия, можно идти без шапки");
         }
         // Task 3
         System.out.println("");
@@ -51,11 +51,11 @@ public class Main {
 
         // Task 6
         System.out.println("");
-        short seats = 102;
+        short seats = 99;
         if (seats < 60) {
             System.out.println("В вагоне есть сидячие места");
         } else if (seats >= 60 && seats < 102) {
-            System.out.println("В вагоне есть сидячие места");
+            System.out.println("В вагоне есть и сидячие и стоячие места");
         } else {
             System.out.println("Вагон полностью забит");
         }
